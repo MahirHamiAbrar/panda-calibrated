@@ -1,0 +1,51 @@
+{
+  "name": "panda-calibrated",
+  "displayName": "Panda Calibrated",
+  "description": "A precision-calibrated evolution of Panda Syntax, featuring complete LSP semantic token highlighting and deep syntactic hierarchy.",
+  "version": "1.0.0",
+  "publisher": "MahirHamiAbrar",
+  "author": {
+    "name": "Mahir Hami Abrar",
+    "email": "mhabrarmts@gamil.com",
+    "url": "https://github.com/MahirHamiAbrar"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/MahirHamiAbrar/panda-calibrated#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MahirHamiAbrar/panda-calibrated"
+  },
+  "bugs": {
+    "url": "https://github.com/MahirHamiAbrar/panda-calibrated/issues"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#242526",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "panda",
+    "theme",
+    "color-theme",
+    "dark",
+    "pastel",
+    "syntax",
+    "calibrated",
+    "semantic"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Panda Calibrated",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PandaCalibrated-color-theme.json"
+      }
+    ]
+  }
+}
