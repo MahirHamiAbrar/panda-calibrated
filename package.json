@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/MahirHamiAbrar/panda-calibrated/issues"
   },
-  "icon": "images/icon.png",
+  "icon": "images/icon.jpeg",
   "galleryBanner": {
     "color": "#242526",
     "theme": "dark"
@@ -47,5 +47,8 @@
         "path": "./themes/PandaCalibrated-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1"
   }
 }

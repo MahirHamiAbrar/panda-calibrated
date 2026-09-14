@@ -1,7 +1,7 @@
 # Panda Calibrated
 
 <div align="center">
-  <img src="images/icon.png" width="128" height="128" alt="Panda Calibrated Icon" />
+  <img src="images/icon.jpeg" width="128" height="128" alt="Panda Calibrated Icon" />
   <p><strong>A precision-calibrated evolution of Panda Syntax with complete LSP semantic token coverage.</strong></p>
   <p>
     <a href="https://marketplace.visualstudio.com/items?itemName=MahirHamiAbrar.panda-calibrated"><img src="https://img.shields.io/visual-studio-marketplace/v/MahirHamiAbrar.panda-calibrated?color=FF75B5&label=Marketplace" alt="Marketplace Version" /></a>
@@ -19,6 +19,21 @@ The original **Panda Syntax** is legendary for its gentle pastel palette on a co
 **Panda Calibrated** fixes this by pairing the beloved **Panda aesthetic** with the granular semantic highlighting depth of **VS Code's Dark Modern**.
 
 Every single construct that can be distinguished by modern language servers is highlighted with intent, balance, and high contrast (WCAG AA compliant).
+
+---
+
+## Visuals
+
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
+  <div style="flex: 1 1 320px; max-width: 580px; min-width: 280px; display: inline-block; vertical-align: top; margin: 8px;">
+    <h3>Python</h3>
+    <img src="images/py_demo.png" alt="Python Demo" width="100%" style="width: 100%; height: auto;" />
+  </div>
+  <div style="flex: 1 1 320px; max-width: 580px; min-width: 280px; display: inline-block; vertical-align: top; margin: 8px;">
+    <h3>TypeScript</h3>
+    <img src="images/ts_demo.png" alt="TypeScript Demo" width="100%" style="width: 100%; height: auto;" />
+  </div>
+</div>
 
 ---
 
