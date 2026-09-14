@@ -5,3 +5,4 @@
 **/*.vsix
 node_modules
 *.log
+.env

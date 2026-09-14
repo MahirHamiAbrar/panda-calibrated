@@ -37,7 +37,7 @@ Every single construct that can be distinguished by modern language servers is h
 
 ---
 
-## 🎨 Color Palette
+## Color Palette
 
 | Swatch | Color Name | Hex Code | Visual Role in Code |
 | :---: | :--- | :--- | :--- |
@@ -59,7 +59,7 @@ Every single construct that can be distinguished by modern language servers is h
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### From the Marketplace
 1. Open **Visual Studio Code**.
@@ -78,7 +78,7 @@ code --install-extension panda-calibrated-1.0.0.vsix
 
 ---
 
-## ⚙️ Recommended Settings
+## Recommended Settings
 
 For the best experience, ensure semantic highlighting is enabled in your `settings.json`:
 
@@ -91,6 +91,6 @@ For the best experience, ensure semantic highlighting is enabled in your `settin
 
 ---
 
-## 📄 License
+## License
 
 [MIT](LICENSE) © 2026 Mahir Hami Abrar
