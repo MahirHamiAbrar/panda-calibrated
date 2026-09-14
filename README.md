@@ -13,16 +13,6 @@
 
 ---
 
-## Why Panda Calibrated?
-
-The original **Panda Syntax** is legendary for its gentle pastel palette on a comfortable dark charcoal canvas. However, because it was authored before modern Language Server Protocol (LSP) semantic token standards existed, over **70% of tokens in modern Python, TypeScript, and Go code** (imported packages, type annotations, method invocations, routers, properties, parameters) fell back to an unhighlighted, flat white foreground.
-
-**Panda Calibrated** fixes this by pairing the beloved **Panda aesthetic** with the granular semantic highlighting depth of **VS Code's Dark Modern**.
-
-Every single construct that can be distinguished by modern language servers is highlighted with intent, balance, and high contrast (WCAG AA compliant).
-
----
-
 ## Visuals
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
@@ -97,6 +87,14 @@ For the best experience, ensure semantic highlighting is enabled in your `settin
   "workbench.colorTheme": "Panda Calibrated"
 }
 ```
+
+---
+
+## Support the Project
+
+If this theme makes your code easier on the eyes, give it a ⭐ on [GitHub](https://github.com/MahirHamiAbrar/panda-calibrated) — it helps others find it.
+
+Spotted a token that looks off or a language that needs love? [Open an issue](https://github.com/MahirHamiAbrar/panda-calibrated/issues) or send a [pull request](https://github.com/MahirHamiAbrar/panda-calibrated/pulls). Contributions of any size are welcome.
 
 ---
 
