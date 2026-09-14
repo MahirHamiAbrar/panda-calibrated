@@ -1,4 +1,4 @@
-name: Publish to VS Code Marketplace
+name: Publish Extension
 
 on:
   push:
@@ -23,8 +23,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install VSCE
-        run: npm install -g @vscode/vsce
+      - name: Install publishing tools
+        run: npm install -g @vscode/vsce ovsx
 
       - name: Bump patch version
         run: |
@@ -34,5 +34,15 @@ jobs:
           git commit -am "chore: bump version"
           git push
 
-      - name: Publish to Marketplace
-        run: vsce publish -p ${{ secrets.VSCE_PAT }}
+      - name: Package extension
+        run: vsce package -o extension.vsix
+
+      - name: Publish to VS Code Marketplace
+        run: vsce publish --packagePath extension.vsix
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+      - name: Publish to Open VSX
+        run: ovsx publish extension.vsix
+        env:
+          OVSX_PAT: ${{ secrets.OPENVSX_PAT }}

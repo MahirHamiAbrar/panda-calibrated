@@ -4,7 +4,8 @@
   <img src="images/icon.jpeg" width="128" height="128" alt="Panda Calibrated Icon" />
   <p><strong>A precision-calibrated evolution of Panda Syntax with complete LSP semantic token coverage.</strong></p>
   <p>
-    <a href="https://marketplace.visualstudio.com/items?itemName=MahirHamiAbrar.panda-calibrated"><img src="https://img.shields.io/visual-studio-marketplace/v/MahirHamiAbrar.panda-calibrated?color=FF75B5&label=Marketplace" alt="Marketplace Version" /></a>
+    <a href="https://marketplace.visualstudio.com/items?itemName=mhabrar.panda-calibrated"><img src="https://img.shields.io/visual-studio-marketplace/v/mhabrar.panda-calibrated?color=FF75B5&label=Marketplace" alt="Marketplace Version" /></a>
+    <a href="https://open-vsx.org/extension/mhabrar/panda-calibrated"><img src="https://img.shields.io/open-vsx/v/mhabrar/panda-calibrated?color=B084EB&label=Open%20VSX" alt="Open VSX Version" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-6FC1FF.svg" alt="License: MIT" /></a>
     <a href="https://github.com/MahirHamiAbrar/panda-calibrated"><img src="https://img.shields.io/badge/GitHub-Repo-19F9D8.svg" alt="GitHub" /></a>
   </p>
@@ -66,14 +67,22 @@ Every single construct that can be distinguished by modern language servers is h
 2. Press <kbd>Ctrl</kbd> + <kbd>P</kbd> (or <kbd>Cmd</kbd> + <kbd>P</kbd> on macOS).
 3. Paste:
    ```bash
-   ext install MahirHamiAbrar.panda-calibrated
+   ext install mhabrar.panda-calibrated
    ```
 4. Press <kbd>Enter</kbd>.
 5. Select **Panda Calibrated Dark Theme** from the theme picker.
 
+### Cursor / Antigravity
+Both editors install extensions from [Open VSX](https://open-vsx.org/extension/mhabrar/panda-calibrated).
+1. Open the **Extensions** view (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>).
+2. Search for **Panda Calibrated** and click **Install**.
+3. Select **Panda Calibrated Dark Theme** from the theme picker.
+
 ### From VSIX
 ```bash
 code --install-extension panda-calibrated-1.0.0.vsix
+cursor --install-extension panda-calibrated-1.0.0.vsix
+antigravity --install-extension panda-calibrated-1.0.0.vsix
 ```
 
 ---
