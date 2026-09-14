@@ -1,4 +1,4 @@
-# Panda Calibrated
+# Panda Calibrated Dark Theme
 
 <div align="center">
   <img src="images/icon.jpeg" width="128" height="128" alt="Panda Calibrated Icon" />
@@ -69,7 +69,7 @@ Every single construct that can be distinguished by modern language servers is h
    ext install MahirHamiAbrar.panda-calibrated
    ```
 4. Press <kbd>Enter</kbd>.
-5. Select **Panda Calibrated** from the theme picker.
+5. Select **Panda Calibrated Dark Theme** from the theme picker.
 
 ### From VSIX
 ```bash
