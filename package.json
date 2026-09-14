@@ -1,7 +1,7 @@
 {
   "name": "panda-calibrated",
   "displayName": "Panda Calibrated Dark Theme",
-  "description": "A precision-calibrated evolution of Panda Syntax, featuring complete LSP semantic token highlighting and deep syntactic hierarchy.",
+  "description": "A dark theme based on Panda Syntax with better syntax highliting",
   "version": "1.0.3",
   "publisher": "mhabrar",
   "author": {
